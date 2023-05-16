@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-box {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.content-box>a {
+    text-decoration: none;
+}
