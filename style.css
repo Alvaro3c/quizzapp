@@ -6,6 +6,8 @@
 
 body {
     background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    accent-color: rgb(244, 155, 39);
 }
 
 main {
@@ -34,6 +36,14 @@ main {
 
 /* GAME */
 
+h1 {
+    text-align: center;
+    margin: 20px 20px 90px;
+    text-decoration: underline;
+    font-size: 4em;
+}
+
+
 form {
     display: flex;
     justify-content: center;
@@ -42,10 +52,15 @@ form {
 }
 
 .question-container {
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin: 50px;
+    padding: 20px;
+    border: 4px rgb(247, 169, 67) solid;
+    border-radius: 20px;
+    background-color: rgb(255, 234, 207);
 }
 
 .question {
@@ -55,6 +70,44 @@ form {
 
 .response {
     font-size: 25px;
+    width: 100%;
     display: flex;
+    align-items: space-between;
     justify-content: space-between;
+    margin: 10px;
+
+}
+
+.answer {
+    background: #FF572233;
+    height: 20px;
+    width: 20px;
+}
+
+button {
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(216, 176, 123);
+    color: white;
+    border: none;
+}
+
+#punctuation {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(222, 126, 0);
+    margin: 20px 20px 20px 50px;
+}
+
+/* MEDIA QUERIES */
+
+@media (mIN-width: 1024px) {
+    .question-container {
+        width: 40%;
+    }
+
+    body {
+        font-weight: 600;
+    }
 }
