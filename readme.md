@@ -21,7 +21,7 @@ The main and only funcionality of this proyect is a addEventListener wich works 
 
 ## :es: Español
 
-### About
+### Sobre el proyecto
 Quiz app es una aplicación web simple donde tienes que responder a 10 preguntas. Habiendo respondido a todas las preguntas o parte de ellas, puedes enviar tus respuestas para recibir una puntuación en base a las preguntas acertadas.
 
 ### Como usar el proyecto
